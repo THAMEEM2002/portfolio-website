@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="container">
@@ -13,17 +14,37 @@
       <p class="title">Aspiring Entrepreneur</p>
       <button class="btn">Hire Me</button>
       <div class="social-links">
-        <a href="#" target="_blank">LinkedIn</a>
-        <a href="#" target="_blank">Twitter</a>
-        <a href="#" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/muhammed-thameem1610/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="icon">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" class="icon">
+        </a>
+        <a href="https://www.instagram.com/muhammedthameem1610/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" class="icon">
+        </a>
       </div>
     </div>
+
     <div class="right">
       <p class="expert">Expert on</p>
       <p class="description">
         I’m a developer and aspiring entrepreneur based in India. Looking to build innovative solutions and grow impactful businesses? Let's connect!
       </p>
       <a href="#" class="btn-secondary" download>Download CV</a>
+
+      <!-- Essay Section -->
+      <div class="essay-section">
+        <h2>Essays</h2>
+        <ul id="essay-list">
+          <li>
+            <a href="#" class="essay-link" data-content="I would have been successful by now in life if I just followed what society has told me to do. But would I be happier? On accepting the terms of society? Not really. This is what happens when you try to rethink everything you have been doing so far. It sucks. Because you need to refigure everything out on your own. Just because you need to win on your own terms, now you have to take accountability and incentives all by yourself. And the worst part? There’s no guarantee that you’d win. Everything is on you.&#10;&#10;But at some point, in every man’s life, you need to pivot to this mindset to get ahead. Because what matters at the end is if you win. And when you define what success and winning is to you, you are creating a new identity, creating yourself.&#10;&#10;Life is not about finding yourself, it’s about creating yourself. Each second, each minute, each hour you are creating a new you. This will turn yourself into a successful person in weeks, months, and years to come. Every thought that’s given to this creation makes you.&#10;&#10;Next time you are searching for something that’s missing in your life, think again. You are actually going the wrong way. There’s nothing to search. There’s no “unknown” hidden deep inside the mosaic of reality. Believe what you want to create and just create it. Nay, you don’t need to believe anything, just do it.">
+              Create Yourself
+            </a>
+          </li>
+        </ul>
+        <div id="essay-content" class="hidden"></div>
+      </div>
     </div>
   </div>
 </body>
